@@ -17,7 +17,7 @@ word_list = [
 ]
 
 chose_word = random.choice(word_list)
-print(f"Word chosen: {chose_word}")
+# print(f"Word chosen: {chose_word}")
 
 
 

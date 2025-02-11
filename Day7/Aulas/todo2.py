@@ -21,22 +21,23 @@ chose_word = random.choice(word_list)
 
 
 
-
 placeholder = ""
 for i in chose_word:
     placeholder += "_ "
 print(placeholder)
 
 
-correct_letters = []
+correct_letters = []   # Onde Todas as letras/palpites certos do usuario serao colocadas 
 lifes = 4
 game_over = False
 
-while not game_over: #Inverte a condicional par aexecutar o loop
-    display = ""
-    guess = input('Advinhe uma letra: ')
-    print('\n')
-
+while lifes > 0: #Inverte a condicional para executar o loop
+    display = ""    #Display dentro do loop para nao acumular os respectivos valores que o usuario atribuir
+    guess = input('Guess a letter: ')
+    if guess in chose_word:
+        continue
+    else:
+        lifes -= 1
     for letter in chose_word:
         if letter == guess:
             correct_letters.append(guess)
@@ -47,6 +48,7 @@ while not game_over: #Inverte a condicional par aexecutar o loop
             
         else:
             display +=  " _ "
+
     print(display)
     print('\n')
 
@@ -55,9 +57,11 @@ while not game_over: #Inverte a condicional par aexecutar o loop
 
 #Verifica se ainda contem letras ocultar/ nao advinhada pelo usuario na palavra escolhida
     if not "_" in display:
-        game_over = True
         print('You got it!')
         print(f'Congratulations", the chosen word was {chose_word}')
+
+    elif lifes == 0:
+        print('You lose!')
 
 
 

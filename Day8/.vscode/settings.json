@@ -2,6 +2,6 @@
     "editor.fontFamily": "'Jetbrainsmono Nerd Font', 'monospace', monospace",
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "explicit",
-    "editor.cursorStyle": "block",
+    "editor.cursorStyle": "line",
     "editor.cursorSurroundingLinesStyle": "default"
 }

@@ -28,4 +28,3 @@ myInput()
 # Por exemplo: na função helloUser() name é o parametro e "Amanda" é um argumento
 #
 #Para a função, o parametro  é uma variavel entre parenteses apos a definiçaõ de seu name
-

@@ -8,5 +8,5 @@
     "workbench.list.smoothScrolling": true,
     "workbench.activityBar.iconClickBehavior": "toggle",
     "accessibility.hideAccessibleView": false,
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "default"
 }

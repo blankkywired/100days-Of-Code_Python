@@ -23,3 +23,5 @@ def greet2(location = 'Brazil', name='Blanky'):
     print(f'YOu live in {location}')
 greet2()
 
+
+

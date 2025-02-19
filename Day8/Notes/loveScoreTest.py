@@ -1,7 +1,7 @@
 
 
 def calculate_love_score(name1, name2):
-    name1 = name1.upper()
+    name1 = name1.upper()  
     name2 = name2.upper()
 
     score1 = 0
@@ -25,3 +25,4 @@ def calculate_love_score(name1, name2):
 
 calculate_love_score("Nara", "Guilherme")
 
+     

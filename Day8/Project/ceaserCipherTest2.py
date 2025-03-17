@@ -19,7 +19,6 @@ def ceaser(direction, original_text, shift_amount):
 
         
 
-
     print(f"Message: {cipher_text}")
 
 ceaser(direction=direction, original_text=text, shift_amount=shift) #Cada argumento ira receber uma variavel com um input, para que nao 

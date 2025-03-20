@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Jetbrainsmono Nerd Font', 'monospace', monospace",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.cursorStyle": "line",

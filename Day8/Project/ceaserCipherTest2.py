@@ -12,10 +12,12 @@ def ceaser(direction, original_text, shift_amount):
         for char in original_text:
             if char != " ":
                 shifted_position = alphabet.index(char) + shift_amount
-                shifted_position %= len(alphabet)
+                shifted_position %= len(alphabet)#Verifica o resto de elementos na lista de letras, se shifted position for menor do que o total de elementos da lista
+                #Sera gerado um novo indice do começo da lista
                 cipher_text += alphabet[shifted_position]
             else:
-                cipher_text += " "
+                cipher_text += " " #Adiciona espaços na mensagem
+
 
         
 

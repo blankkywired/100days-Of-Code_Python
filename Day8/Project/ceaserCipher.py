@@ -25,7 +25,8 @@ continueCode = True
 
 while continueCode:
 
-    direction = input("Type 'encode' to encrypt or 'decode' to decrypt the text:\n ").lower()
+    direction = input("Type 'encode' to encrypt or 'decode' to decrypt the text: \n").lower()
+
     text = input('Type your text here:\n').lower()
     shift = int(input('Type the shift amount here: \n'))
 

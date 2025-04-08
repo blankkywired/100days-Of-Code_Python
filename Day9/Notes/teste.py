@@ -16,3 +16,4 @@ while condicao:
 
 for i in nomes:
     print(i, nomes[i] , "Anos")
+

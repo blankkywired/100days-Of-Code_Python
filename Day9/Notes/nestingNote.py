@@ -32,3 +32,12 @@ nested_list = ["A", "B", ["C", "D"]]
 print(nested_list[2][1]) # ----> Exibindo um elemento de uma lista aninhada Output: "D"
 
 
+#Dicionarios aninnhados
+
+#Lista aninhada de paises visitados organizados por cidades visitadas por pais junto com a quantidade de vezes visitadas
+travel_log = {
+    "France": {
+        "num_visited": 8,
+        "cities_visited": ["Paris", "Little", "Dijo"]
+    }
+}

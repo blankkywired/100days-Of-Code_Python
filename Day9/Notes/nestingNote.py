@@ -39,5 +39,13 @@ travel_log = {
     "France": {
         "num_visited": 8,
         "cities_visited": ["Paris", "Little", "Dijo"]
+    },
+
+    "Germany": {
+        "num_visited": 4,
+        "cities_visited": ["Berlim", "Stuttgart", "Hamburg"]
     }
 }
+
+print(travel_log["Germany"]["cities_visited"][1]) # ---> Output: Stuttgart
+

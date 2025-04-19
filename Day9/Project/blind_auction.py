@@ -33,7 +33,7 @@ while start_code:
         os.system('cls' if os.name == 'nt' else 'clear') #-Clean the screen after the user's input
          
 
-#Mostrar os respectivos valores -- nome e quantia 
+
 print("-" * 15 , "RESULT" , "-" * 20)
 for user in data_base:
     print(f'{user}: ${data_base[user]}')

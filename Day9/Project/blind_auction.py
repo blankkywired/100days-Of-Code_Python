@@ -1,7 +1,7 @@
 import draw
 import os
 
-print(draw.simbol)
+print(draw.logo)
 
 start_code = True
 
@@ -21,7 +21,7 @@ while start_code:
 
     #Adding the bid for the list
     values_bid += [bid_user]
-    #Adding name and bid in the dict
+    #Adding name and bid in the dicti
     data_base[name_user] = bid_user
 
     if bidders_question == "no":
@@ -34,7 +34,7 @@ while start_code:
          
 
 
-print("-" * 15 , "RESULT" , "-" * 20)
+print(draw.result)
 for user in data_base:
     print(f'{user}: ${data_base[user]}')
 

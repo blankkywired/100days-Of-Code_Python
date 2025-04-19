@@ -12,6 +12,7 @@ def most_expensive(value):
     for j in value:
         if j > max_value:
             max_value = j
+    print(draw.result)
     return (f'The highest value is R${max_value}')
     
 while start_code:
@@ -34,7 +35,7 @@ while start_code:
          
 
 
-print(draw.result)
+
 for user in data_base:
     print(f'{user}: ${data_base[user]}')
 

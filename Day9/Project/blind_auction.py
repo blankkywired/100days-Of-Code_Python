@@ -29,10 +29,10 @@ while start_code:
         start_code = False
         print(most_expensive(value=values_bid))
 
-
     elif bidders_question == "yes":
         os.system('cls' if os.name == 'nt' else 'clear') #-Clean the screen after the user's input
-         
+    else:
+        print("Please enter a valid value")
 
 
 

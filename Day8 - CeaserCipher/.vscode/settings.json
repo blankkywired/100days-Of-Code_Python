@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorStyle": "line",
+    "editor.cursorSurroundingLinesStyle": "default",
+    "workbench.list.horizontalScrolling": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "accessibility.hideAccessibleView": false,
+    "workbench.activityBar.location": "default"
+}

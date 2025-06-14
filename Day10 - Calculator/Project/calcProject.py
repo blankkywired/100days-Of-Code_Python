@@ -24,10 +24,6 @@ listOptions = {
 }
 
 #O Dicionario armazena as funções como valores para cada key
-
-
-
-
 def main():
     startAlgorithm = True  
 

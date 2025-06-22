@@ -45,6 +45,7 @@ def main():
         result = operationDict[choiceOperation](UserNumber_1, UserNumber_2)
             #Puxando a key e o valor dela, o valor da key é uma função, entao, os argumentos são repassados usando as duas entradas do usuario apos a key ser chamada
 
+        #Exibir os valores  do usuario, operaçõo e resultado final
         print(f"{UserNumber_1},{choiceOperation} {UserNumber_2} = {result}")
 
         continueCalc = input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation, type 'stop' to finish the process: ").lower()
@@ -61,7 +62,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-
+                    
 
 
 
